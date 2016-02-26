@@ -1,0 +1,241 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{CC323775-B9BA-4664-B779-CB8E17CB4930}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>ASSIGNMENT2_PS03039.My.MyApplication</StartupObject>
+    <RootNamespace>ASSIGNMENT2_PS03039</RootNamespace>
+    <AssemblyName>ASSIGNMENT2_PS03039</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>ASSIGNMENT2_PS03039.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>ASSIGNMENT2_PS03039.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+    <Import Include="System.Threading.Tasks" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Class1.vb" />
+    <Compile Include="frmGioithieu.Designer.vb">
+      <DependentUpon>frmGioithieu.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmGioithieu.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmlienhe.Designer.vb">
+      <DependentUpon>frmlienhe.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmlienhe.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmTaoTk.Designer.vb">
+      <DependentUpon>frmTaoTk.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmTaoTk.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmQLSP.Designer.vb">
+      <DependentUpon>frmQLSP.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmQLSP.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmThongtinAccount.Designer.vb">
+      <DependentUpon>frmThongtinAccount.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmThongtinAccount.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmXemSP.Designer.vb">
+      <DependentUpon>frmXemSP.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmXemSP.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmDangNhap.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmDangNhap.Designer.vb">
+      <DependentUpon>frmDangNhap.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmDCKH.Designer.vb">
+      <DependentUpon>frmDCKH.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmDCKH.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmKH.Designer.vb">
+      <DependentUpon>frmKH.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmKH.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmMain.Designer.vb">
+      <DependentUpon>frmMain.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmMain.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="frmGioithieu.resx">
+      <DependentUpon>frmGioithieu.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmlienhe.resx">
+      <DependentUpon>frmlienhe.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmTaoTk.resx">
+      <DependentUpon>frmTaoTk.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmQLSP.resx">
+      <DependentUpon>frmQLSP.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmThongtinAccount.resx">
+      <DependentUpon>frmThongtinAccount.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmXemSP.resx">
+      <DependentUpon>frmXemSP.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmDangNhap.resx">
+      <DependentUpon>frmDangNhap.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmDCKH.resx">
+      <DependentUpon>frmDCKH.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmKH.resx">
+      <DependentUpon>frmKH.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmMain.resx">
+      <DependentUpon>frmMain.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>PublicVbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\exit.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Background_Grey.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\adduser1.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\add_list.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\patent-search-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\info-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Facebook.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\graphite_gradient_2_by_msketchley-d3hxab0.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\accountinfo.png" />
+    <None Include="Resources\logout.png" />
+    <None Include="Resources\contact.PNG" />
+    <None Include="Resources\search-user-wearing-tie_318-47160.png" />
+    <None Include="Resources\check.PNG" />
+    <None Include="Resources\x.PNG" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
